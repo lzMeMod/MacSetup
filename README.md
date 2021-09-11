@@ -1,5 +1,5 @@
 # Mac Setup
-
+Eine kurze Anleitung um die wichtigsten Tools und Umgebungen zu installieren.
 ## Homebrew
 Homebrew ist ein Paketmanager
 ```shell
@@ -44,7 +44,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 ```
 
 ### Plugins aktivieren
-In der ```~/.zshrc``` wird folgendes hinzugefügt
+In der ```~/.zshrc``` wird folgendes hinzugefügt:
 ```shell
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
@@ -58,6 +58,8 @@ plugins=(
     zsh-autosuggestions
 )
 ```
+Die Datei kann durch einen bevorzugten Texteditor bearbeitet werden wie z.B. nano
+oder vim: ````nano ~.zshrc````
 
 ## Python
 Python ist bereits in einer alten Version in macOS enthalten.
