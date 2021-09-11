@@ -1,13 +1,11 @@
 # Mac Setup
 
-## <span style="color:red">Ab hier musst du ADMIN sein</span>
 ## Homebrew
 Homebrew ist ein Paketmanager
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 homebrew kann mit ```brew search something``` durchsucht werden
-## <span style="color:red">ADMIN deaktivieren</span>
 ## iTerm2
 Ein besseres Terminal
 ```shell
