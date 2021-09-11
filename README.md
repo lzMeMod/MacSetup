@@ -77,7 +77,7 @@ brew install --cask anaconda
 ```
 
 Das Anaconda Verzeichnis muss global exportiert werden.
-Dafür das folgende in die ```.zshrc``` einügen.
+Dafür das folgende in die ```.zshrc``` eingefügt.
 ```shell
 export PATH="/opt/homebrew/anaconda3/bin:$PATH"
 ```
